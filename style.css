@@ -1,0 +1,46 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.web {
+  color: #4d5ae5;
+  text-decoration: none;
+}
+
+.studio {
+  color: #2e2f42;
+}
+
+.link {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 4%;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.effective-solution {
+  background-color: #2e2f42;
+}
+
+h1 {
+  color: #ffffff;
+}

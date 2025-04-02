@@ -4,28 +4,34 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <title>WebStudio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <nav>
-            <a href="./index.html">WebStudio</a>
-            <ul>
-                <li><a href="">Studio</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Contacts</a></li>
+            <a href="./index.html"><span class="web">Web</span class="studio">Studio</span></a>
+            <ul class="navigation">
+                <li><a href="" class="link">Studio</a></li>
+                <li><a href="" class="link">Portfolio</a></li>
+                <li><a href="" class="link">Contacts</a></li>
             </ul>
         </nav>
         <address>
             <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
-                <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a> </li>
+                <li><a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a></li>
             </ul>
         </address>
     </header>
     <main>
-        <section>
+        <section class="effective-solution">
             <h1>Effective Solutions for Your Business</h1>
             <button type="button">Order Service</button>
         </section>
@@ -66,31 +72,54 @@
             <h2>Our Team</h2>
             <ul>
                 <li>
-                    <img src="./images/img-3.jpg" alt="a bearded man with short dark hair, wearing a light blue shirt"
-                        width="264" height="260">
+                    <img src="./images/mark-guerrero.jpg"
+                        alt="a bearded man with short dark hair, wearing a light blue shirt" width="264" height="260">
                     <h3>Mark Guerrero</h3>
                     <p>Product Designer</p>
                 </li>
                 <li>
-                    <img src="./images/img-2.jpg"
+                    <img src="./images/tom-ford.jpg"
                         alt="a young man with short brown hair and a smile, wearing a light blue shirt" width="264"
                         height="260">
                     <h3>Tom Ford</h3>
                     <p>Frontend Developer</p>
                 </li>
                 <li>
-                    <img src="./images/img-1.jpg" alt="a woman with long dark hair, wearing a pink sweater" width="264"
-                        height="260">
+                    <img src="./images/camila-garcia.jpg" alt="a woman with long dark hair, wearing a pink sweater"
+                        width="264" height="260">
                     <h3>Camila Garcia</h3>
                     <p>Marketing</p>
                 </li>
                 <li>
-                    <img src="./images/img.jpg"
+                    <img src="./images/daniel-wilson.jpg"
                         alt="a man with short brown hair and light stubble, wearing a gray sweater" width="264"
                         height="260">
                     <h3>Daniel Wilson</h3>
                     <p>UI Designer</p>
                 </li>
+            </ul>
+        </section>
+        <section>
+            <h2 class="title-our-portfolio">Our Portfolio</h2>
+            <ul>
+                <li><img src="./images/banking-app.jpg" alt=""></li>
+                <h3>Banking App</h3>
+                <p>App</p>
+                <li><img src="./images/cashless-payment.jpg" alt=""></li>
+                <h3>Cashless Payment</h3>
+                <p>Marketing</p>
+                <li><img src="./images/meditation-app.jpg" alt=""></li>
+                <h3>Meditation App</h3>
+                <p>App</p>
+                <li><img src="./images/taxi-service.jpg" alt=""></li>
+                <h3>Taxi Service</h3>
+                <p>Marketing</p>
+                <li><img src="./images/screen-illustrations.jpg" alt=""></li>
+                <h3>Screen Illustrations</h3>
+                <p>Design</p>
+                <li><img src="./images/online-courses.jpg" alt=""></li>
+                <h3>Online Courses</h3>
+                <p>Marketing</p>
             </ul>
         </section>
     </main>
