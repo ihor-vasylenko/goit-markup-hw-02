@@ -33,6 +33,7 @@ ul {
   letter-spacing: 4%;
   text-decoration: none;
   font-style: normal;
+  color: var(--primary-brand)
 }
 
 .link:hover {
@@ -54,17 +55,21 @@ h2 {
     line-height: 111%;
     letter-spacing: 0.02em;
     text-align: center;
-    color: var(--navy-blue);
+    color: var(--overlays-headings-shadows);
+}
+
+p {
+  color: var(--text);
 }
 
 /* #endregion base styles */
 
 /* #region header */
 
-.web-iris {
-  color: #4d5ae5;
+.studio-navyblue {
+  color: var(--overlays-headings-shadows);
 }
-.nav .link {
+.navigation .link{
     font-weight: 700;
     font-size: 18px;
     line-height: 117%;
@@ -73,12 +78,17 @@ h2 {
     font-family: var(--font-secondary);
 }
 
-.nav .navigation {
+.navigation-links {
   font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: var(--text);
+    text-decoration: none;
+}
+
+address .link {
+  color: var(--text);
 }
 
 /* #endregion header */
@@ -100,8 +110,101 @@ h2 {
 
 /* #endregion main banner */
 
-/* #region Advantages */
+/* #region advantages */
 
+.section-advantages {
+  background-color: var(--header-teamcards-background);
+}
 
+.advantages-list .h3-title-advantages {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: var(--overlays-headings-shadows);
+}
+.h3-title-advantages .advantages-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+}
 
-/* #endregion Advantages */
+/* #endregion advantages */
+
+/* #region our team */
+
+.section-our-team {
+  background-color: var(--light);
+}
+
+.h3-title-team-member {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--overlays-headings-shadows);
+}
+
+.text-member-role {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+/* #endregion our team */
+
+/* #region our portfolio */
+
+.section-our-portfolio {
+  background-color: var(--header-teamcards-background);
+}
+
+.h3-title-portfolios {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: var(--overlays-headings-shadows);
+}
+
+.project-category {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+}
+
+/* #endregion our portfolio */
+
+/* #region footer */
+
+footer {
+  background-color: var(--overlays-headings-shadows);
+}
+
+.logo-footer .link{
+    font-weight: 700;
+      font-size: 18px;
+      line-height: 117%;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      font-family: var(--font-secondary);
+}
+
+.studio-cloud {
+  color: var(--light);
+}
+
+.underlogo-footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--light);
+}
+
+/* #endregion footer */
