@@ -5,18 +5,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
+    rel="stylesheet">
     <title>WebStudio</title>
     <link rel="stylesheet" href="./styles/style.css">
 </head>
-
 <body>
     <header>
         <nav>
-            <a href="./index.html"><span class="web">Web</span><span class="studio">Studio</span></a>
+            <a href="./index.html" class="link"><span class="web-iris">Web</span>Studio</a>
             <ul class="navigation">
                 <li><a href="" class="link">Studio</a></li>
                 <li><a href="" class="link">Portfolio</a></li>
@@ -31,12 +31,16 @@
         </address>
     </header>
     <main>
+<!-- #region main banner -->
         <section class="effective-solution">
             <h1>Effective Solutions for Your Business</h1>
-            <button type="button">Order Service</button>
+            <button type="button" class="order-service">Order Service</button>
         </section>
+<!-- #endregion main banner -->
+
+<!-- #region advantages -->
         <section>
-            <h2>Advantages</h2>
+            <h2 hidden>Advantages</h2>
             <ul>
                 <li>
                     <h3>Strategy</h3>
@@ -68,6 +72,9 @@
             </ul>
 
         </section>
+        <!-- #endregion Advantages -->
+
+<!-- #region our team -->
         <section>
             <h2>Our Team</h2>
             <ul>
@@ -99,35 +106,39 @@
                 </li>
             </ul>
         </section>
+<!-- #endregion our team -->
+
+<!-- #region our portfolio -->
         <section>
-            <h2 class="title-our-portfolio">Our Portfolio</h2>
+            <h2>Our Portfolio</h2>
             <ul>
                 <li><img src="./images/banking-app.jpg" alt="">
-                    <p>Banking App</p>
+                    <h3>Banking App</h3>
                     <p>App</p>
                 </li>
                 <li><img src="./images/cashless-payment.jpg" alt="">
-                    <p>Cashless Payment</p>
+                    <h3>Cashless Payment</h3>
                     <p>Marketing</p>
                 </li>
                 <li><img src="./images/meditation-app.jpg" alt="">
-                    <p>Meditation App</p>
+                    <h3>Meditation App</h3>
                     <p>App</p>
                 </li>
                 <li><img src="./images/taxi-service.jpg" alt="">
-                    <p>Taxi Service</p>
+                    <h3>Taxi Service</h3>
                     <p>Marketing</p>
                 </li>
                 <li><img src="./images/screen-illustrations.jpg" alt="">
-                    <p>Screen Illustrations</p>
+                    <h3>Screen Illustrations</h3>
                     <p>Design</p>
                 </li>
                 <li><img src="./images/online-courses.jpg" alt="">
-                    <p>Online Courses</p>
+                    <h3>Online Courses</h3>
                     <p>Marketing</p>
                 </li>
             </ul>
         </section>
+<!-- #endregion our portfolio -->
     </main>
 
     <footer>

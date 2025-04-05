@@ -1,28 +1,29 @@
+/* #region base styles */
+
+:root {
+  --font-primary: "Roboto", sans-serif;
+  --font-secondary: "Raleway", sans-serif;
+  --primary-brand: #4D5AE5;
+  --pressed-state: #404BBF;
+  --overlays-headings-shadows: #2E2F42;
+  --success: #31D0AA;
+  --text: #434455;
+  --subtle-text: #8E8F99;
+  --accent: #E7E9FC;
+  --light: #F4F4FD;
+  --modal-overlay: #2E2F42;
+  --hero-background: #2E2F42;
+  --header-teamcards-background:#FFFFFF;
+  --modal-background: #FCFCFC;
+}
+
 body {
-  font-family: "Roboto", sans-serif;
-  background-color: #ffffff;
-}
-
-h1,
-h2 {
-  text-align: center;
-}
-
-h3 {
-  text-align: left;
+  background-color: var(--main-background);
+  font-family: var(--font-primary);
 }
 
 ul {
   list-style-type: none;
-}
-
-.web {
-  color: #4d5ae5;
-  text-decoration: none;
-}
-
-.studio {
-  color: #2e2f42;
 }
 
 .link {
@@ -31,18 +32,76 @@ ul {
   line-height: 16px;
   letter-spacing: 4%;
   text-decoration: none;
+  font-style: normal;
 }
 
 .link:hover {
   text-decoration: underline;
 }
 
-.effective-solution {
-  background-color: #2e2f42;
-}
-
 h1 {
-  color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--header-teamcards-background);
 }
 
-/*sdsdsd */
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--navy-blue);
+}
+
+/* #endregion base styles */
+
+/* #region header */
+
+.web-iris {
+  color: #4d5ae5;
+}
+.nav .link {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-family: var(--font-secondary);
+}
+
+.nav .navigation {
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--text);
+}
+
+/* #endregion header */
+
+/* #region main banner */
+
+.effective-solution {
+    background-color: var(--overlays-headings-shadows);
+}
+
+.effective-solution .order-service {
+ background-color: var(--primary-brand);
+ color: var(--header-teamcards-background);
+}
+
+.effective-solution .order-service:active {
+  background-color: var(--pressed-state);
+}
+
+/* #endregion main banner */
+
+/* #region Advantages */
+
+
+
+/* #endregion Advantages */
